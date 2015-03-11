@@ -1,1 +1,0 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/g/LinuxAcademy/multiserver","disabled":false},"v-csc-1":{"id":"v-csc-1","guestpath":"/tmp/vagrant-chef/6684a3736b8b09dadbc96f462cff5758/cookbooks","hostpath":"/home/g/LinuxAcademy/multiserver/cookbooks","disabled":false}}}
