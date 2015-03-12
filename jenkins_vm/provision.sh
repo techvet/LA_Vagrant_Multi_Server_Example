@@ -1,5 +1,7 @@
 #!/bin/bash
- 
+
+sudo apt-get update && sudo apt-get upgrade
+
 if [ ! -f /usr/bin/svn ]; 
 then
 	echo "-------- PROVISIONING SUBVERSION ------------"
