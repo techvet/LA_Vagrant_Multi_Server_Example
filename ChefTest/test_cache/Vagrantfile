@@ -5,11 +5,13 @@
 # configures the configuration version (we support older styles for
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
+
 Vagrant.configure(2) do |config|
   config.vm.box = "precise64"
   config.vm.box_url = "http://files.vagrantup.com/precise64.box"
   
-  # need to modify this to use 11.6 to work with reach-chef
+  # you will need to install plugin vagrant-omnibus on your machine https://github.com/chef/vagrant-omnibus
+  # reach-chef uses an older chef
   config.omnibus.chef_version = "11.6.0"
   
   # make sure these ports are free on your system if you get network connection errors
