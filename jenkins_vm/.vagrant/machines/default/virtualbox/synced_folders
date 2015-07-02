@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/gabr8014/Dev/vagrant_dev/LA_Vagrant_Multi_Server_Example/jenkins_vm","disabled":false}}}
+{"virtualbox":{"/var/lib/jenkins/jenkins_code":{"guestpath":"/var/lib/jenkins/jenkins_code","hostpath":"/Users/gabr8014/Dev","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/gabr8014/Dev/vagrant_dev/LA_Vagrant_Multi_Server_Example/jenkins_vm","disabled":false}}}
