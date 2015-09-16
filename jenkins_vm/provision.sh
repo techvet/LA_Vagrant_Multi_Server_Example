@@ -95,10 +95,10 @@ then
  
 	mkdir -p /usr/local/lib/ant
 	cd /usr/local/lib/ant
-	wget -q http://ftp.halifax.rwth-aachen.de/apache//ant/binaries/apache-ant-1.9.4-bin.tar.gz
-	tar xzf apache-ant-1.9.4-bin.tar.gz
-	rm apache-ant-1.9.4-bin.tar.gz
-	ln -s /usr/local/lib/ant/apache-ant-1.9.4/bin/ant /usr/local/bin/ant
+	wget -q http://www.eu.apache.org/dist//ant/binaries/apache-ant-1.9.6-bin.tar.gz
+	tar xzf apache-ant-1.9.6-bin.tar.gz
+	rm apache-ant-1.9.6-bin.tar.gz
+	ln -s /usr/local/lib/ant/apache-ant-1.9.6/bin/ant /usr/local/bin/ant
  
 	echo "Ant installed"
 else
